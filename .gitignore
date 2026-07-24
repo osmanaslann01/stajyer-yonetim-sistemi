@@ -1,0 +1,14 @@
+# Composer kütüphaneleri
+/vendor/
+
+# Özel şifre ve yapılandırma dosyaları
+.env
+.env.local
+
+# Günlük (Log) dosyaları
+*.log
+
+# Editör ve sistem dosyaları
+.vscode/
+.idea/
+.DS_Store
