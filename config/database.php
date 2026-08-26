@@ -36,7 +36,7 @@ class Database
         }
         catch(PDOException $e)
         {
-            echo "Bağlantı hatası: ".$e->getMessage();
+            echo "Baglanti hatasi: ".$e->getMessage();
         }
 
         return $this->conn;
